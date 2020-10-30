@@ -1,0 +1,213 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.rki{
+			background-image: linear-gradient(rgb(255,69,0,0.3),rgb(255,69,0,0.3)),url('bg.jpg');
+			padding-bottom: 320px;
+			clip-path: polygon( 100% 0%,100% 75%,50% 100%,0 75%,0 0);
+	          position: relative;
+
+			background-repeat: no-repeat;
+		}
+		.rki p{
+
+  text-decoration: underline;
+
+		}
+		.rki h1{
+			font-size: 80px;
+
+		}
+		.sky{
+			font-size: 20px;
+
+		}
+		@font-face{
+			font-family: rk;
+			src: url('fonts/CFHalloween-Regular.ttf');
+
+		}
+		@font-face{
+			font-family: pubg;
+			src: url('fonts/Battleground.ttf');
+
+		}
+		@font-face{
+			font-family: footext;
+			src: url('fonts/EvilEmpire-4BBVK.ttf');
+		}
+.rki:before{
+	position: absolute;
+	 opacity: .3;
+    z-index: -1;
+    background: linear-gradient(to top, #ff9933 0%, #ff6600 100%);
+}
+		
+@media(max-width: 450px){
+	.rki{
+			background-image: linear-gradient(rgb(255,69,0,0.3),rgb(255,69,0,0.3)),url('bg.jpg');
+			padding-bottom: 350px;
+			clip-path: polygon( 100% 0%,100% 90%,50% 100%,0 90%,0 0);
+	          position: relative;
+
+			background-repeat: no-repeat;
+		}
+		.introd{
+			margin-top: 40px;
+		}
+
+		.contact{
+			margin-left: 25px;
+		}
+		.sky{
+			font-size: 15px;
+
+		}
+		.ultra{
+			margin-top: 10px;
+		}
+	.rki h1{
+		padding-top: 100px;
+		font-size: 34px;
+	}
+	.rki{
+		padding-bottom: 200px;
+	}
+	.ak{
+		margin-top: 60px;
+	}
+	.dkbh{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+
+	}
+	.card{
+		align-items: center !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	hr{
+	border: solid 1px #C0C0C0 ;
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-bottom: 20px;
+}
+
+}
+
+.ak{
+	margin-top: 100px;
+}
+
+.dk{
+	color: #00FCCB !important;
+	font-size: 20px;
+	
+}
+
+
+.nav-item:hover{
+	color: grey !important;
+}
+
+.card{
+	border-color: #dcdcdc !important;
+
+}
+
+
+.card h3{
+	font-family: 'Fredoka One', cursive;
+}
+
+
+
+.jumbotron i{
+	color: red;
+}
+
+.footrk{
+	
+	font-size: 40px;
+	background-image: url('foot.jpg');
+	border-top: black solid 2px;
+}
+
+hr{
+	border: solid 1px #C0C0C0 ;
+	margin-right: 80px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+}
+
+.carousel .item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 100%;
+}
+
+.ultra{
+	margin-top: 100px;
+}
+
+.optionrk{
+	text-decoration: underline ;
+	font-size: 17px;
+}
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+.search{
+	background-image: url('search.jpg')
+}
+
+#loading{
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #fff url('https://static.dribbble.com/users/238114/screenshots/3372087/loader.gif')
+no-repeat center;
+z-index: 99999;}
